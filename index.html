@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Magenta -->
+     <div class="wrapper">
+        <h1 class="heading1">Job Application Form</h1>
+
+        <!-- Details here -->
+        <div class="details">
+
+            <!-- Personal Info -->
+             <div class="personal-info box">
+                <label for="first-name">First Name:</label>
+                <input type="text" name="first-name" id="first-name">
+                
+                <label for="first-name">Last Name:</label>
+                <input type="text" name="last-name" id="last-name">
+
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email">
+
+                <label for="ph-num">Phone Number</label>
+                <input type="tel" name="ph-num" id="ph-num">
+             </div>
+             <!-- Personal info over -->
+
+             <!-- Job Details -->
+              <div class="job-detaild box">
+                <label for="position">Position Applied For:</label>
+                <select name="position" id="position" placeholder="Select an option">
+                    <option value="Select1">Eng1</option>
+                    <option value="Select2">Eng2</option>
+                    <option value="Select3">Eng3</option>
+                </select>
+
+                <label for="experience">Years of Experience:</label>
+                <input type="number" name="experience" id="experience">
+
+                <label for="cover-letter">Cover Letter:</label>
+                <textarea name="cover-letter" id="cover-letter" placeholder="Write here" ></textarea>
+              </div>
+              <!-- Job Details complete -->
+
+              <!-- Availability -->
+               <div class="availability box">
+                    <label for="availability-start-date">Availability Start Date:</label>
+                    <input type="date" name="availability-start-date" id="availability-start-date">
+
+                    <p class="que">Willing To Relocate:</p>
+                    <label for="yes">Yes:</label>
+                    <input type="radio" name="yes" id="yes">
+                    <label for="no">No:</label>
+                    <input type="radio" name="no" id="no">
+               </div>
+               <!-- Availability Khatam -->
+        </div>
+        <!-- details khatam -->
+         <button id="Submit">Submit</button>
+     </div>
+</body>
+</html>
